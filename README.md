@@ -22,3 +22,10 @@ module.load('molly')
 module:Fire('molly')
 module.dog('molly')
 ```
+
+ps: mollerbase is used on itself
+
+```ts
+import {wrap,load} from '@rbxts/mollerbase'
+print(wrap == load) // true
+```
