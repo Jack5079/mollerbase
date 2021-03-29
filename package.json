@@ -1,0 +1,23 @@
+{
+  "name": "@rbxts/mollerbase",
+  "version": "1.0.0",
+  "description": "the world's stupidest function wrapper",
+  "main": "out/init.lua",
+  "scripts": {
+    "prepublishOnly": "rbxtsc"
+  },
+  "keywords": [],
+  "author": "Jack <hello@5079.ml> (https://5079.ml)",
+  "license": "ISC",
+  "types": "out/index.d.ts",
+  "files": [
+    "out"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^1.0.0-types.0",
+    "@rbxts/types": "^1.0.466"
+  }
+}
